@@ -46,7 +46,7 @@
   - View instances and to verify the role copy the public IP
   - go to the terminal and log in with the new IP
 
-  ssh -i ~/Desktop/Exercises/dev-04222017.pem 54.191.78.0 -l ec2-user
+  ssh -i ~/Desktop/Exercises/dev-05678017.pem 54.191.78.0 -l ec2-user
 
   Once logged in to verify the role
 

@@ -80,7 +80,7 @@ The way that we do that is we're going to specify the security group ID in the s
     Since we already created a security group, we choose the one we have.
   You get a warning stating that port 22 isn't open. and you can come back later and add when and if needed.
   - Review your choices and launch
-  - Specify the keypair - dev-04222017 one
+  - Specify the keypair - dev-05678017 one
   - Launch - View instance
 
 8. Trying to access the EC2 via HTTP
@@ -93,7 +93,7 @@ The way that we do that is we're going to specify the security group ID in the s
   - choose type SSH, port 22 and my IP
   * Best practice: instead of use your own IP address to access EC2 via SSH, is to set up a Bastion host, which keeps things secure and only allow SSH in from that specific bastion host, rather than form a specific IP
   - Go to terminal on your computer
-  ssh -i ~/Desktop/Exercises/dev-04222017.pem 54.218.11.189 -l ec2-user
+  ssh -i ~/Desktop/Exercises/dev-05678017.pem 54.218.11.189 -l ec2-user
   - It will ask for the authenticity of the host
   - Now that you are in, you can create the heartbeat file to determine where the instance is healthy or not.
   - cd /var/www/html/
